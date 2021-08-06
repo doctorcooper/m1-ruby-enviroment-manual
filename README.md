@@ -6,7 +6,7 @@
 
 Для начала нужно установить `homebrew`:
 
-`1/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 Далее необходимо установить `rbenv` и `ruby-build` через `homebrew`:
 
