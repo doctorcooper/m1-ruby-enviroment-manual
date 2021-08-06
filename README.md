@@ -19,17 +19,20 @@
 Для `.zshrc` выполняем:
 ```
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi'  >> ~/.zshrc 
-source ~/.zshrc # Для применения изменений в текущей сессии терминала`
+source ~/.zshrc # Для применения изменений в текущей сессии терминала
 ```
 
 В случае `.bash_profile`:
 ```
 echo  'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi'  >> ~/.bash_profile 
-source ~/.bash_profile # Для применения изменений в текущей сессии терминала`
+source ~/.bash_profile # Для применения изменений в текущей сессии терминала
 ```
 После этого устанавливаем `Ruby` версии `2.7.2` и устанавливаем его как `global`:
 
-`rbenv install  2.7.2 2rbenv global 2.7.2`
+```
+rbenv install  2.7.2 
+rbenv global 2.7.2
+```
 
 После выполнения всех вышеперечисленных шагов проверяем версию `Ruby`:
 
